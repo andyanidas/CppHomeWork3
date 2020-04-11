@@ -1,0 +1,26 @@
+HW3_Calico_Tests
+ -Test1
+ -Test2
+ -Test3
+
+Each test consists of two repeat tests: calico_test.t and calico_test_sep.t. calico_test checks the output as a whole. In the calico_test_sep, the expected output was divided into different test cases. Then the output is sought and scored for each case separately. Therefore, calico_test is sharper than calico_test_sep in evaluation. I have used both tests to ensure you get score even if your program is not %100 correct. 
+
+Your final HW3 grade is calculated by average of all tests.
+
+How to run:
+Assume that you are in HW3_Solution folder,
+
+To remove old calico.log file if exist:
+rm submission/solution_0000ibilgen/calico.log 
+
+Run the test files:
+calico -d "Submissions/andy" Data_Structures_HW3_Test1/calico_test.t --log
+calico -d "Submissions/andy" Data_Structures_HW3_Test1/calico_test_sep.t --log
+...
+Apply same for the other test files.
+
+To run the program:
+Submissions/andy/hw3 Data_Structures_HW3_Test1/Network.txt Data_Structures_HW3_Test1/Messages.txt
+
+To see the log file:
+vim Submissions/solution_0000ibilgen/calico.log

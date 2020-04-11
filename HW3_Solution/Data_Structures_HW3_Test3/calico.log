@@ -1,0 +1,253 @@
+starting test init
+running command: rm -f hw3
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test build
+running command: g++ -std=c++11 -Wall -Werror ../main.cpp -o ../hw3
+  expecting (8s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case1
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1[ 
+]*"
+  received: "Traversing:0 1 
+"
+  expecting (2s): "[ 
+]*Message:message1 To:0 1 mh_1[ 
+]*"
+  received: "Message:message1 To:0 1 mh_1
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case2
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2[ 
+]*"
+  received: "
+Traversing:0 1 2 
+"
+  expecting (2s): "[ 
+]*Message:message2 To:0 2 mh_2[ 
+]*"
+  received: "Message:message2 To:0 2 mh_2
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case3
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3[ 
+]*"
+  received: "
+Traversing:0 1 2 3 
+"
+  expecting (2s): "[ 
+]*Message:message3 To:0 2 3 mh_3[ 
+]*"
+  received: "Message:message3 To:0 2 3 mh_3
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case4
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 
+"
+  expecting (2s): "[ 
+]*Message:message4 To:0 2 3 4 mh_4[ 
+]*"
+  received: "Message:message4 To:0 2 3 4 mh_4
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case5
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 
+"
+  expecting (2s): "[ 
+]*Message:message5 To:0 2 3 4 5 mh_5[ 
+]*"
+  received: "Message:message5 To:0 2 3 4 5 mh_5
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case6
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 
+"
+  expecting (2s): "[ 
+]*Message:message6 To:0 2 3 4 5 6 mh_6[ 
+]*"
+  received: "Message:message6 To:0 2 3 4 5 6 mh_6
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case7
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 
+"
+  expecting (2s): "[ 
+]*Message:message7 To:0 2 7 mh_7[ 
+]*"
+  received: "Message:message7 To:0 2 7 mh_7
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case8
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7 8[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 8 
+"
+  expecting (2s): "[ 
+]*Message:message8 To:0 2 7 8 mh_8[ 
+]*"
+  received: "Message:message8 To:0 2 7 8 mh_8
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case9
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7 8 9[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 8 9 
+"
+  expecting (2s): "[ 
+]*Message:message9 To:0 2 7 9 mh_9[ 
+]*"
+  received: "Message:message9 To:0 2 7 9 mh_9
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case10
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7 8 9 10[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 8 9 10 
+"
+  expecting (2s): "[ 
+]*Message:message10 To:0 2 7 10 mh_10[ 
+]*"
+  received: "Message:message10 To:0 2 7 10 mh_10
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case11
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7 8 9 10 11[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 8 9 10 11 
+"
+  expecting (2s): "[ 
+]*Message:message11 To:0 11 mh_11[ 
+]*"
+  received: "Message:message11 To:0 11 mh_11
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case12
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7 8 9 10 11[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 8 9 10 11 
+"
+  expecting (2s): "[ 
+]*Message:message12 To:0 11 mh_12[ 
+]*"
+  received: " 
+Message:message12 To:0 11 mh_12
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case13
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7 8 9 10 11[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 8 9 10 11 
+"
+  expecting (2s): "[ 
+]*Message:message13 To:0 11 mh_13[ 
+]*"
+  received: " 
+Message:message13 To:0 11 mh_13
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case14
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7 8 9 10 11[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 8 9 10 11 
+"
+  expecting (2s): "[ 
+]*Message:message14 To:0 11 mh_14[ 
+]*"
+  received: " 
+Message:message14 To:0 11 mh_14
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case15
+running command: ../hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 1 2 3 4 5 6 7 8 9 10 11[ 
+]*"
+  received: "
+Traversing:0 1 2 3 4 5 6 7 8 9 10 11 
+"
+  expecting (2s): "[ 
+]*Message:message15 To:0 11 mh_15[ 
+]*"
+  received: " 
+Message:message15 To:0 11 mh_15
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)

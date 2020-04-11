@@ -1,0 +1,10 @@
+starting test init
+running command: rm -f hw3
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test build
+running command: g++ -std=c++11 -Wall -Werror main.cpp -o hw3
+  expecting (8s): _EOF_
+  received: _EOF_
+exit status: 1 (expected 0)
